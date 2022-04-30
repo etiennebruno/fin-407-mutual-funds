@@ -12,5 +12,4 @@ data/**
 .DS_Store
 Thumbs.db
 
-data/row_data_index
 data/sec-edgar-filings
