@@ -57,7 +57,7 @@ def df_from_filings():
                         txt = f.read()
                     # print(path_file)
                     data.append((cik, rt, rf, file, txt))
-        return pd.DataFrame(data, columns=['cik', 'report_type', 'report_identity', 'file', 'text'])
+    return pd.DataFrame(data, columns=['cik', 'report_type', 'report_identity', 'file', 'text'])
 
 
 def clean_punctuation(text):
