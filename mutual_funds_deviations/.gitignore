@@ -12,5 +12,16 @@ data/**
 .DS_Store
 Thumbs.db
 
+# Notebook checkpoints files
+.ipynb_checkpoints
+
+# Pickle backups
+*.pkl
+**/*.pkl
+
+# Pycache
+**/__pycache__/
+
+
 data/row_data_index
 data/sec-edgar-filings
