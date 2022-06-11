@@ -28,7 +28,7 @@ def load_pkl(path):
         return pickle.load(f)
 
 
-STOPWORDS = load_pkl('data/stopwords.pkl')
+STOPWORDS = load_pkl('data/stop_words_long.pkl')
 
 
 def df_from_filings():
