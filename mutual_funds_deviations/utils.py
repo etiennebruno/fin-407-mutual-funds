@@ -50,14 +50,16 @@ def df_from_filings():
             for rf in report_folder:  # report identity
                 path_report_folder = path_report_type + '/' + rf
                 filling = os.listdir(path_report_folder)
+                year = rf.split('-')[1]
+                year = '20' + year if int(year) <= 22 else '19' + year
 
                 for file in filling:  # file submission text
                     path_file = path_report_folder + '/' + str(file)
                     with open(path_file, 'r') as f:
                         txt = f.read()
                     # print(path_file)
-                    data.append((cik, rt, rf, file, txt))
-    return pd.DataFrame(data, columns=['cik', 'report_type', 'report_identity', 'file', 'text'])
+                    data.append((cik, rt, rf, year, file, txt))
+    return pd.DataFrame(data, columns=['cik', 'report_type', 'report_identity', 'year', 'file', 'text'])
 
 
 def clean_punctuation(text):
