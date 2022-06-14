@@ -21,6 +21,10 @@ Thumbs.db
 
 #-------- IGNORE ENTIRE FOLDERS ---------- 
 **/data/row_data_index/
+**/data/sentiment_analysis/
+
+**/data/sec-edgar*/
+
+# Should not be required anymore
 **/data/sec-edgar-filings/
 **/data/sec-edgar-filings-cleaned/
-**/data/sentiment_analysis/
