@@ -1,5 +1,5 @@
 
-#-------- IGNORE ENTIRE FOLDERS ---------- 
+#-------- IGNORE ENTIRE FOLDERS ----------
 .idea/
 **/.idea/
 **/__pycache__/
@@ -20,7 +20,7 @@ Thumbs.db
 
 
 #-------- IGNORE ENTIRE FOLDERS ----------
-**/data/sec-edgar*/ 
+**/data/sec-edgar*/
 **/data/row_data_index/
 **/data/sentiment_analysis/
 
