@@ -1,4 +1,29 @@
+
+#-------- IGNORE ENTIRE FOLDERS ---------- 
 .idea/
-.DS_Store
+**/.idea/
 **/__pycache__/
-aggression_identification-master/
+**/shelf/
+**/workspace.xml
+
+
+#-------- SPECIFIC OS FILES ----------
+.DS_Store
+Thumbs.db
+
+
+
+#-------- SPECIFIC USER FILES ----------
+.ipynb_checkpoints
+*.pkl
+
+
+
+#-------- IGNORE ENTIRE FOLDERS ----------
+**/data/sec-edgar*/ 
+**/data/row_data_index/
+**/data/sentiment_analysis/
+
+# Should not be used
+**/data/sec-edgar-filings/
+**/data/sec-edgar-filings-cleaned/
