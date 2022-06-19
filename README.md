@@ -32,8 +32,8 @@ Here is a list of the relevant source files
 |`06_benchmark_data.ipynb`   | Get from CRSP the benchmark return and returns of all funds - comparisons |
 |`07_find_benchmark.ipynb`   | Attempt to find benchmarks with rolling windows and full sentences|
 |`08_fin_bert_split.ipynb`   | Perform FinBERT on our corpus - regular autonatic saving (RAM and time consuming)|
-|`09_fund_performance_per_report.ipynb`   | -(TODO)- |
+|`09_fund_performance_per_report.ipynb`   | Add the return of the fund for the year corresponding to the report to the dataframe containing all reports and saving |
 |`10_capm.ipynb`   | -(TODO)- |
-|`11_regression.ipynb`   | -(TODO)- |
+|`11_regression.ipynb`   | Perform some regression for analysis |
 
 You will also find a lot of checkpoint files that corresponds to various models and predictions we experimentes througout this project.
