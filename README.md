@@ -12,10 +12,10 @@ The goal of this project is to analyse annual and semi-annual certified sharehol
 ## Instructions
 First, you need to clone our repository on your computer using the following command via ssh.
 ```
-!git clone git@github.com:etiennebruno/financial_econonometry_project.git fin-407-mutual-funds
+!git clone git@github.com:etiennebruno/fin-407-mutual-funds.git fin-407-mutual-funds
 ```
 
-Then, you if you want to be able to run all models, you can either run notebooks 00 to 02 or download the entire 'data' folder from [HERE](). The notebooks will download the data and process them (results can be slightly different from results since the notebook create connection to EDGAR which is constantly being updated with new files)
+Then, you if you want to be able to run all models, you can either run notebooks 00 to 02 or download the entire `data` folder from [HERE](https://www.swisstransfer.com/d/847d31ea-4ad9-4487-b545-9e6f8111888a). The notebooks will download the data and process them (results can be slightly different from results since the notebook create connection to EDGAR which is constantly being updated with new files)
 
 
 ## Overview
