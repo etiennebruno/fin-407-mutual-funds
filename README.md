@@ -7,7 +7,7 @@ Zad ABI FADEL : zad.abifadel@epfl.ch <br/>
 Etienne BRUNO : etiene.bruno@epfl.ch <br/>
 
 ##  Objective
-The goal of this project is to analyse annual and semi-annual certified shareholder reports (N-CSR & N-CSRS) of mutual funds. The study involves downloading, processing, cleaning and formatting these reports, publicly available on EDGAR, to perform sentiment analysis. Heuristics models based on lexicons of sentiment-related words as well as machine learning oriented models are implemented. A comparison of performances of the funds is established with the market. The performances of the mutual funds are evaluated based on the CAPM model metrics. Finally, we contrast the performance of the funds with the the tone expressed in the shareholder reports to assess if there’s a causality between the tone of the reports and the returns of the fund.
+The goal of this project is to analyse annual and semi-annual certified shareholder reports (N-CSR & N-CSRS) of mutual funds. The study involves downloading, processing, cleaning and formatting these reports, publicly available on EDGAR, to perform sentiment analysis. Heuristics models based on lexicons of sentiment-related words as well as machine learning oriented models are implemented. A comparison of performances of the funds is established with the market. The performances of the mutual funds are evaluated based on some metrics. Finally, we contrast the performance of the funds with the the tone expressed in the shareholder reports to assess if there’s a causality between the tone of the reports and the returns of the fund.
 
 ## Instructions
 First, you need to clone our repository on your computer using the following command via ssh.
