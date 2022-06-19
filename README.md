@@ -3,7 +3,7 @@
 The purpose of this project is to determine wether the tone used on regulatory N-CRS and N-CRS reportings impact the performance of mutual funds on the following year.
 
 ## Team Members
-Zad ABI FADEL : zad.abifadel <br/>
+Zad ABI FADEL : zad.abifadel@epfl.ch <br/>
 Etienne BRUNO : etiene.bruno@epfl.ch <br/>
 
 ##  Objective
