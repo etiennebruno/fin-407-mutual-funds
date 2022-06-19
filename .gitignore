@@ -5,6 +5,7 @@
 **/__pycache__/
 **/shelf/
 **/workspace.xml
+**/.ipynb_checkpoints/
 
 
 #-------- SPECIFIC OS FILES ----------
@@ -12,11 +13,10 @@
 Thumbs.db
 
 
-
 #-------- SPECIFIC USER FILES ----------
 .ipynb_checkpoints
 *.pkl
-
+*.zip
 
 
 #-------- IGNORE ENTIRE FOLDERS ----------
