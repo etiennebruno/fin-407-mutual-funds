@@ -34,5 +34,3 @@ Here is a list of the relevant source files
 |`08_fin_bert_split.ipynb`   | Perform FinBERT on our corpus - regular autonatic saving (RAM and time consuming)|
 |`09_fund_performance_per_report.ipynb`   | Add the return of the fund for the year corresponding to the report to the dataframe containing all reports and saving |
 |`10_regression.ipynb`   | Perform regressions for analysis |
-
-You will also find a lot of checkpoint files that corresponds to various models and predictions we experimentes througout this project.
